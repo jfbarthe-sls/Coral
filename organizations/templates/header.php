@@ -244,32 +244,32 @@ if ((file_exists($util->getCORALPath() . "index.php")) || ($config->settings->li
 			<li id="change-mod-menu"><span><?php echo _("Change Module"); ?></span><i class="fa fa-chevron-down"></i>
 				<ul class="coraldropdown">
 					<?php if (file_exists($util->getCORALPath() . "index.php")) {?>
-					<li class="change-mod-item"><a href="<?php echo $coralURL; ?>" target='_blank'><img src='images/change/icon-mod-main.png'><span><?php echo _("Main Menu"); ?></span></a></li>
+					<li class="change-mod-item"><a href="<?php echo $coralURL; ?>"><img src='images/change/icon-mod-main.png'><span><?php echo _("Main Menu"); ?></span></a></li>
 					<?php
 					}
 					if ($config->settings->licensingModule == 'Y') {
 					?>
-					<li class="change-mod-item"><a href="<?php echo $coralURL; ?>licensing/" target='_blank'><img src='images/change/icon-mod-licensing.png'><span><?php echo _("Licensing"); ?></span></a></li>
+					<li class="change-mod-item"><a href="<?php echo $coralURL; ?>licensing/"><img src='images/change/icon-mod-licensing.png'><span><?php echo _("Licensing"); ?></span></a></li>
 					<?php
 					}
 					if ($config->settings->resourcesModule == 'Y') {
 					?>
-					<li class="change-mod-item"><a href="<?php echo $coralURL; ?>resources/" target='_blank'><img src='images/change/icon-mod-resources.png'><span><?php echo _("Resources"); ?></span></a></li>
+					<li class="change-mod-item"><a href="<?php echo $coralURL; ?>resources/"><img src='images/change/icon-mod-resources.png'><span><?php echo _("Resources"); ?></span></a></li>
 					<?php
 					}
 					if ($config->settings->cancellationModule == 'Y') {
 					?>
-					<li class="change-mod-item"><a href="<?php echo $coralURL; ?>cancellation/" target='_blank'><img src='images/change/icon-mod-cancellation.png'></a><span><?php echo _("Cancel"); ?></span></li>
+					<li class="change-mod-item"><a href="<?php echo $coralURL; ?>cancellation/"><img src='images/change/icon-mod-cancellation.png'></a><span><?php echo _("Cancel"); ?></span></li>
 					<?php
 					}
 					if ($config->settings->usageModule == 'Y') {
 					?>
-					<li class="change-mod-item"><a href="<?php echo $coralURL; ?>usage/" target='_blank'><img src='images/change/icon-mod-usage.png'><span><?php echo _("Usage Statistics"); ?></span></a></li>
+					<li class="change-mod-item"><a href="<?php echo $coralURL; ?>usage/"><img src='images/change/icon-mod-usage.png'><span><?php echo _("Usage Statistics"); ?></span></a></li>
 					<?php
 					}
 					if ($config->settings->managementModule == 'Y') {
 					?>
-					<li class="change-mod-item"><a href="<?php echo $coralURL; ?>management/" target='_blank'><img src='images/change/icon-mod-management.png'><span><?php echo _("Management"); ?></span></a></li>
+					<li class="change-mod-item"><a href="<?php echo $coralURL; ?>management/"><img src='images/change/icon-mod-management.png'><span><?php echo _("Management"); ?></span></a></li>
 					<?php } ?>
 				</ul>
 			</li>

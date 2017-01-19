@@ -18,7 +18,7 @@
 ?>
 
 <br />
-<div class="footer"><?php echo _("Copyright");?> &copy; 2015. <?php echo _("Licensing Module version");?> 1.4<br/><a href="http://coral-erm.org/"><?php echo _("CORAL Project Website");?></a> | <a href="https://github.com/Coral-erm/Coral/issues"><?php echo _("Report an issue");?></a></div>
+<div class="footer"><?php echo _("Copyright");?> &copy; 2017 SLS. <?php echo _("Licensing Module version");?> 1.4<br/><a href="http://coral-erm.org/"><?php echo _("CORAL Project Website");?></a> | <a href="https://code.stanford.edu/jfbarthe/Coral/issues"><?php echo _("Report an issue");?></a></div>
 </div>
 
 </td>
