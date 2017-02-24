@@ -118,7 +118,7 @@ $coralURL = $util->getCORALURL();
                 ?>
                 </span><br />
 
-            <?php if($config->settings->authModule == 'Y'){ echo "<a href='" . $coralURL . "auth/?logout' id='logout'>" . _("logout") . "</a><span id='divider'> | </span><a href='https://js-erm-helps.bc.sirsidynix.net' id='help' target='_blank'>" . _("Help") . "</a><span id='divider'> | </span>"; } ?>
+            <?php if($config->settings->authModule == 'Y'){ echo "<a href='" . $coralURL . "auth/?logout' id='logout'>" . _("logout") . "</a><span id='divider'> | </span><a href='http://docs.coral-erm.org/' id='help' target='_blank'>" . _("Help") . "</a><span id='divider'> | </span>"; } ?>
 
                 <span id="setLanguage">
             		<select name="lang" id="lang" class="dropDownLang">
@@ -285,7 +285,7 @@ if ((file_exists($util->getCORALPath() . "index.php")) || ($config->settings->or
 					<li class="change-mod-item"><a href="<?php echo $coralURL; ?>resources/"><img src='images/change/icon-mod-resources.png'><span><?php echo _("Resources");?></span></a></li>
 					<?php
 					}
-					if ($config->settings->organizationsModuleInstalled == 'Y') {
+					if ($config->settings->organizationsModule == 'Y') {
 					?>
 					<li class="change-mod-item"><a href="<?php echo $coralURL; ?>organizations/"><img src='images/change/icon-mod-organizations.png'><span><?php echo _("Organizations");?></span></a></li>
 					<?php

@@ -120,7 +120,7 @@
 
            <span id="newParent">
            <div class="oneParent">
-           <input type='text' class='parentResource parentResource_new' name='parentResourceName' value='' style='width:140px;' class='changeInput'  /><input type='hidden' class='parentResource parentResource_new' name='parentResourceID' value='' /><span id='span_error_parentResourceName' class='smallDarkRedText'></span>
+           <input type='text' class='parentResource parentResource_new' name='parentResourceName' value='' style='width:140px;' class='changeInput'  /><input type='hidden' class='parentResource parentResource_new' name='parentResourceNewID' value='' /><span id='span_error_parentResourceName' class='smallDarkRedText'></span>
            <a href='#'><input class='addParent add-button' title='<?php echo _("add Parent Resource");?>' type='button' value='<?php echo _("Add");?>'/></a><br />
           </div>
            </span>
@@ -192,7 +192,7 @@ $parentResourceObj = new Resource(new NamedArguments(array('primaryKey' => $pare
 
 
 					<tr>
-					<td style='vertical-align:top;text-align:left;font-weight:bold;'><label for='resourceTypeID'>Type:</label></td>
+					<td style='vertical-align:top;text-align:left;font-weight:bold;'><label for='resourceTypeID'><?php echo _("Type:");?></label></td>
 					<td>
 					<select name='resourceTypeID' id='resourceTypeID' style='width:100px;' class='changeSelect' >
 					<option value=''></option>
